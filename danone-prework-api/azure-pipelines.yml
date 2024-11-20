@@ -27,7 +27,7 @@ steps:
 
 - task: CacheBeta@0
   inputs:
-    key: $(Build.SourcesDirectory)/danone-prework-api/pom.xml
+    key: $(Build.SourcesDirectory)/Danone-prework/danone-prework-api/pom.xml
     path: $(MAVEN_CACHE_FOLDER)
   displayName: Cache Maven local repo
 
