@@ -23,7 +23,7 @@ variables:
 - name: MAVEN_OPTS
   value: '-Dmaven.repo.local=$(MAVEN_CACHE_FOLDER)'
 jobs:
-- job: my_job
+- job: danone_cicd_job
   timeoutInMinutes: 120
   steps:
     - task: CacheBeta@0
