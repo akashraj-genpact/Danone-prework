@@ -24,7 +24,7 @@ variables:
   value: '-Dmaven.repo.local=$(MAVEN_CACHE_FOLDER)'
 jobs:
 - job: danone_cicd_job
-  timeoutInMinutes: 120
+  timeoutInMinutes: 30
   steps:
     - task: CacheBeta@0
       inputs:
